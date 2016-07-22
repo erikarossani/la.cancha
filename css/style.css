@@ -1,0 +1,62 @@
+body{
+	margin:  0px;
+	padding: 0px;
+}
+#contenedor{
+	margin-top: 100px;
+	margin-left: 100px;
+	background: #006600;
+	width: 1000px;
+	height: 500px;
+}
+.marco{
+	width: 980px;
+	height: 480px;
+	border: 1px solid white;
+	position: relative;
+	top: 7px;
+	left: 10px;
+}
+
+.marco img{
+	position: relative;
+	top: 50px;
+	left: 510px;
+}
+.arco1{
+	width: 150px;
+	height: 250px;
+	border: 1px solid white;
+	position: absolute;
+	top: 120px;
+}
+
+.arco1 img{
+	position: absolute;
+    top: 5px;
+	left: 140px;
+}
+
+.centro{
+	width: 200px;
+	height: 200px;
+	border: 1px solid white;
+	position: absolute;
+	left: 400px;
+	top: 130px;
+	border-radius: 100%;
+}
+.arco2{
+	width: 150px;
+	height: 250px;
+	border: 1px solid white;
+	position: absolute;
+	right: 0px;
+	top: 120px;
+}
+
+.arco2 img{
+	position: absolute;
+    top: 210px;
+	left: -40px;
+}
